@@ -6,7 +6,7 @@ import 'dart:io';
 import 'package:http/http.dart' as http;
 
 class ApiService {
-  static var ip = "http://ahnxdx-001-site1.atempurl.com/api/Student/";
+  static var ip = "http://localhost:9988/api/Student/";
   static String? token;
   //get
   static Future getUser({String code = ""}) async {
